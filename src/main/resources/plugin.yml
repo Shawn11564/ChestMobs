@@ -1,0 +1,8 @@
+name: ChestMobs
+version: ${project.version}
+main: dev.mrshawn.chestmobs.ChestMobs
+api-version: 1.17
+prefix: ChestMobs
+authors: [ MrShawn ]
+description: Put mobs in chests for a fun surprise when people open them
+website: https://mrshawn.dev/

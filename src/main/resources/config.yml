@@ -1,0 +1,21 @@
+items:
+  mob-in-lore: true
+  line: "&7Stored mob: &6{mob}"
+blocks:
+  # Should the mob only be spawned once when a chest is opened
+  # if false, a mob will spawn everytime someone opens a chest
+  one-time-use: true
+spawning:
+  # Offset from chest location where mob will spawn
+  offset:
+    x: 0
+    y: 1
+    z: 0
+blacklist:
+  - "ENDER_DRAGON"
+  - "WITHER"
+messages:
+  chest-placed: "&aYou've placed a chest containing a &c{mob}"
+  mob-spawned: "&aThe chest you opened spawned a &6{mob}"
+  already-has-mob: "&cThis chest already has a &6{mob} &cinside!"
+  cant-pickup: "&cYou aren't allowed to pickup &6{mob}"
